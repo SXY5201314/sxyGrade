@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--配置别名-->
+    <typeAliases>
+        <!--类型的别名就是类名-->
+        <package name="com.kgc.grade.entity"></package>
+    </typeAliases>
+
+    <!--加载sql映射文件-->
+    <mappers>
+        <mapper resource="com/kgc/grade/mapper/GradeMapper.xml"></mapper>
+        <mapper resource="com/kgc/grade/mapper/StudentMapper.xml"></mapper>
+
+    </mappers>
+</configuration>
